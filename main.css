@@ -1,4 +1,4 @@
-
+/* main css*/
 body{
 
 background-color: rgb(33, 37, 41);
@@ -16,8 +16,6 @@ background-color: gray;
 
 height: 140px;
 width: 100%;
-
-
 
 }
 
@@ -42,3 +40,5 @@ p{
     color: white;
     text-align: justify;
 }
+
+/* main css*/
