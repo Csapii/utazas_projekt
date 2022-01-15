@@ -1,0 +1,44 @@
+
+body{
+
+background-color: rgb(33, 37, 41);
+
+}
+
+.navbar{
+
+background-color: gray;
+
+}
+
+  
+#holiday_banner{
+
+height: 140px;
+width: 100%;
+
+
+
+}
+
+
+#nav_id_:hover{
+
+border-radius: 20px;
+background-color: rgb(223, 223, 223);
+box-shadow: 0 0 10px red;
+color: black;
+
+}
+
+#nav_id_{
+
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(223, 223, 323);
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
