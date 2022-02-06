@@ -22,19 +22,19 @@ width: 100%;
 
 #nav_id_:hover{
 
-border-radius: 20px;
-background-color: rgb(223, 223, 223);
-box-shadow: 0 0 10px purple;
-color: black;
+box-shadow: 0 0 10px #cab68b;
+
 
 }
 
 #nav_id_{
 
-    border-radius: 20px;
     text-decoration: none;
     color: rgb(223, 223, 323);
     margin: 0 10px;
+    transition: transform .5s;
+    box-shadow: 0 0 10px #463c61;
+    border-radius: 30px;
 }
 
 p{
@@ -52,4 +52,53 @@ text-align: center;
 }
 
 }
+
+
+
 /* main css*/
+
+
+.card{
+
+    color: white;
+    max-width: 80%;
+    text-align: left;
+    background-color: #212529;
+    transition: transform .2s;
+    border-radius: 12px;
+    
+    animation-name: szivarvany;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes szivarvany {
+        0%   {box-shadow: 0 0 15px red;}
+        15%  {box-shadow: 0 0 15px orange;}
+        25%  {box-shadow: 0 0 15px yellow;}
+        45%  {box-shadow: 0 0 15px green;}
+        65% {box-shadow: 0 0 15px blue;}
+        85% {box-shadow: 0 0 15px indigo;}
+        100% {box-shadow: 0 0 15px violet;}
+      }
+    .btn{
+    
+    background-color: #523b63;
+    color: white;
+    
+    }
+    
+    
+    .card:hover{
+        transform: scale(1.1);
+        
+    }
+    
+    
+    
+    .card-header, .card-title{
+    
+    text-align: center;
+    
+    }

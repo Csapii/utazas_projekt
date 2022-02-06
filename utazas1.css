@@ -1,0 +1,66 @@
+/* main css*/
+body{
+
+    background-color: rgb(33, 37, 41);
+    color: white;
+    }
+    
+    .navbar{
+    
+    background-color: gray;
+    
+    }
+    
+      
+    #holiday_banner{
+    
+    height: 140px;
+    width: 100%;
+    
+    }
+    
+    
+    #nav_id_:hover{
+    
+    box-shadow: 0 0 10px #cab68b;
+    
+    
+    }
+    
+    #nav_id_{
+    
+        text-decoration: none;
+        color: rgb(223, 223, 323);
+        margin: 0 10px;
+        transition: transform .5s;
+        box-shadow: 0 0 10px #463c61;
+        border-radius: 30px;
+    }
+    
+    p{
+        color: white;
+        text-align: justify;
+    }
+    
+    
+    @media (max-width:991px){
+    
+    nav a{
+    
+    text-align: center;
+    
+    }
+    
+    }
+    
+    
+    
+    /* main css*/
+
+
+    /* utazas1*/
+    .card{
+
+        background-color: rgb(33, 37, 41);
+
+    }
