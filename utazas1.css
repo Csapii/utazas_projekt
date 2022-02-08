@@ -59,8 +59,39 @@ body{
 
 
     /* utazas1*/
-    .card{
+.card{
 
         background-color: rgb(33, 37, 41);
+        border: 1px solid black;
+        box-shadow: 0 0 5px yellow;
+}
+
+#box-text-shadowing{
+
+    text-shadow: 0 0 3px white;
+
+}
+
+.card-text{
+
+text-align: justify;
+
+}
+
+h1{
+
+text-align: center;
 
     }
+
+#eger_haz{
+
+    transition: transform .5s;
+
+}
+
+#eger_haz:hover{
+
+    transform: scale(2);
+
+}
