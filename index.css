@@ -1,0 +1,141 @@
+/* index css*/
+body{
+
+background-color: rgb(33, 37, 41);
+text-align: justify;
+font-family: 'Source Sans Pro', sans-serif;
+color:white;
+
+}
+
+.navbar{
+
+background-color: gray;
+
+}
+
+  
+#holiday_banner{
+
+height: 140px;
+width: 100%;
+border-radius: 10px;
+
+}
+
+
+#nav_id_:hover{
+
+box-shadow: 0 0 10px #cab68b;
+
+
+}
+
+#nav_id_{
+
+    text-decoration: none;
+    color: rgb(223, 223, 323);
+    margin: 0 10px;
+    transition: transform .5s;
+    box-shadow: 0 0 10px #463c61;
+    border-radius: 30px;
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
+
+
+@media (max-width:991px){
+
+nav a{
+
+text-align: center;
+
+}
+
+}
+
+
+
+/* index css*/
+
+
+.card{
+    margin: auto;
+    width: 60%;
+    color: white;
+    text-align: left;
+    background-color: #212529;
+    transition: transform .2s;
+    border-radius: 12px;
+    
+    animation-name: szivarvany;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes szivarvany {
+        0%   {box-shadow: 0 0 15px red;}
+        15%  {box-shadow: 0 0 15px orange;}
+        25%  {box-shadow: 0 0 15px yellow;}
+        45%  {box-shadow: 0 0 15px green;}
+        65% {box-shadow: 0 0 15px blue;}
+        85% {box-shadow: 0 0 15px indigo;}
+        100% {box-shadow: 0 0 15px violet;}
+      }
+    .btn{
+    
+    background-color: #523b63;
+    color: white;
+    
+    }
+    
+    
+    .card:hover{
+        transform: scale(1.1);
+        
+    }
+    
+    
+    
+    .card-header, .card-title{
+    
+    text-align: center;
+    
+    }
+
+#ugras{
+
+background-color: #523b63;
+width: auto;
+height: 30%;
+}
+
+#dollar{
+
+width: 25px;
+height: 25px;
+margin: 0 5px 5px 5px;
+
+}
+
+#kocsi, #busz, #vonat, #repcsi{
+
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 5px 5px;
+
+}
+
+#impresszum, #imp_sz{
+
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

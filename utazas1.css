@@ -3,6 +3,8 @@ body{
 
     background-color: rgb(33, 37, 41);
     color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
     }
     
     .navbar{
@@ -16,6 +18,7 @@ body{
     
     height: 140px;
     width: 100%;
+    border-radius: 10px;
     
     }
     
@@ -58,7 +61,7 @@ body{
     /* main css*/
 
 
-    /* utazas1*/
+    /* utazas*/
 .card{
 
         background-color: rgb(33, 37, 41);
@@ -84,14 +87,38 @@ text-align: center;
 
     }
 
-#eger_haz{
+#szallas{
 
     transition: transform .5s;
+    width: 216px;
+    height: 162px;
 
 }
 
-#eger_haz:hover{
+#szallas:hover{
 
     transform: scale(2);
+
+}
+
+#ugras{
+
+    background-color: #523b63;
+    width: auto;
+    height: 30%;
+    color: white;
+    }
+
+#gallery{
+
+width: 300px;
+height: 200px;
+margin: 0 0 20px;
+transition: transform .5s;
+}
+
+#gallery:hover{
+
+transform: scale(2);
 
 }
